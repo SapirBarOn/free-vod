@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>free vod</title>
+        <link href="includes/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <main>
+                <h1>WELCOME TO FREE VOD WEB SERVICE</h1>
+
+                <p>
+                    <h3>show all free contents(GET):</h3>  
+                    if you want to get all the free contents click on the link bellow:
+                    <br><br>
+                    <a href="https://free-vod.herokuapp.com/getAllContents">https://free-vod.herokuapp.com/getAllContents</a>
+                </p>
+
+                <p>
+                    <h3>show contents by specific category(POST):</h3>  
+                    if you want to get a specific category you need use the link bellow and you can
+                    change the category name in the query string in this example the wanted category is kids:
+                    <br><br>
+                    <a href="https://free-vod.herokuapp.com/getByCategory/kids">https://free-vod.herokuapp.com/getByCategory/<b><i>category=kids</b></i></a>
+                    
+                </p>
+
+                <p> 
+                    <h3>show contents in specific category and minimum of views:(GET)</h3>  
+                    if you want to get contents in a specific category and minimum of views you need use the link bellow and you can
+                    change the category name and minimum number views in the query string in this example the wanted category is kids and minimum views 150:
+                    <br><br>   
+                    <a href="https://free-vod.herokuapp.com/getByCategoryAndViews/kids/150">https://free-vod.herokuapp.com/getByCategoryAndViews/<b><i>category=kids&views=150</b></i></a>
+                </p>
+            </main>
+        </div>    
+    </body>
+</html>

@@ -1,0 +1,37 @@
+* {
+    margin:0px;
+    padding-left:0px;
+}
+
+body{
+    background:#D8BFD8;
+    padding-top: 10px;
+}
+
+#wrapper{
+    margin:auto;
+    width:70%;
+    border:5px solid #800080;
+    border-radius: 5px;
+}
+
+main{
+    padding: 20px;
+    font-family: Arial Black;
+}
+
+h1{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: Showcard Gothic;
+}
+
+h3{
+    padding-bottom: 4px;
+    text-decoration: underline;
+}
+
+p{
+    padding-top: 20px;
+    font-size: 5px;
+}
